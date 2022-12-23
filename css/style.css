@@ -1,0 +1,173 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Responsive WEBSITE
+    Template URI:
+    Description: This is ______
+    Author: RIAZ PATOWARY & MD. SHRABON HOSSAIN
+
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Template default css
+    2. Header Section
+    3. Slider Section
+    4. Service Section 
+    5. About Section
+    6. Career Section
+    7. Testimonials Section
+    8. Subscribe Section 
+    9. Pricing Section
+    10. Counter Section
+    11. Footer Section
+    12. Scrollup
+    13. Blog details
+    
+    
+-----------------------------------------------------------------------------------*/
+
+
+/* 1.---------------------------------------------
+                Template default css
+------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #171717;
+    background: #ffffff;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+   font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+a:focus,
+.btn:focus,
+.button:focus,
+select:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.overflow_x {
+    overflow-x: hidden;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.slick-active:focus {
+    outline: 0;
+}
+
+h1{
+    font-size: 88px;
+    color: aquamarine;
+
+}
+
+/* 2.-------------------------------------------
+                    Heder Section
+-----------------------------------------------*/
+
+
+/* 3.-------------------------------------------
+                    Banner Section
+-----------------------------------------------*/
+
+
+/* 4.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 5.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 6.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 7.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 8.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 9.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
