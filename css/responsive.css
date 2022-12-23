@@ -1,0 +1,75 @@
+ @media (min-width:320px) and (max-width:575px) {
+     /* 3.-------------------------------------------
+                    Banner Section
+-----------------------------------------------*/
+#banner_section{
+    padding: 20px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+.text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #2d9187;
+}
+h6{
+    font-size: 18px;
+    font-weight: 400;
+    color: #705640;
+}
+.banner_img{
+    flex-direction: column;
+}
+.banner_img img{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+
+}
+.banner_img .button{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+.button a{
+    background: #8C6498;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button a i{
+    padding-right: 5px;
+}
+.button a:nth-child(2){
+    background: #263C5C;
+}
+
+/* Footer part */
+.icon ul li a{
+    font-size: 13px;
+    margin: 0 2px;
+}
+.form-select{
+    font-size: 12px;
+}
+
+ }
+
+ /* TABLET VERSION */
+ @media (min-width:576px) and (max-width:767px) {
+         
+ }
