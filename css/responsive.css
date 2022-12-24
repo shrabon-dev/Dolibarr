@@ -66,6 +66,10 @@ h6{
 .form-select{
     font-size: 12px;
 }
+#community_section iframe{
+    width: 80%;
+    height: 200px;
+}
 
  }
 
