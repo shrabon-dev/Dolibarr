@@ -149,7 +149,10 @@ h1{
 }
 .title h6 i{
     background-color: #2D9187;
-    padding: 12px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
     margin-right: 15px;
     border-radius: 50px;
     color: #fff;
@@ -276,7 +279,7 @@ h6{
     margin: 30px 0;
 }
 
-#text_section .para h4 span{
+ .para h4 span{
     background-color: #2D9187;
     width: 40px;
     height: 40px;;
@@ -292,20 +295,20 @@ h6{
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
-#text_section .para ul{
+.para ul{
     padding-left: 50px;
     padding-bottom: 20px;
 }
-#text_section .para ul li strong{
+ .para ul li strong{
     font-weight: 600;
 }
-#text_section .para ul li{
+ .para ul li{
     list-style: disc;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
 }
-#text_section .para ul li a{
+ .para ul li a{
     background: #8C6498;
     color: #fff;
     padding: 5px 10px;
@@ -416,10 +419,95 @@ h6{
     display: block;
 }
 /* 6.-------------------------------------------
-                    About Section
+                    Community Section
 -----------------------------------------------*/
+#community_section{
+  padding: 100px 0;
+}
+#community_section .title h6{
+     width: 100%;
+     text-align: center;
+}
+#community_section p{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #171717;
+    text-align: center;
+}
 
+#community_section .video_play{
+   text-align: center;
+}
+#community_section iframe{
+    margin: 50px auto;  
+    box-shadow: 0 0 10px 0 #2b2b2b; 
+}
+.para2 h4 {
+    color: #2b2b2b;
+    font-size: 24px;
+    font-weight: 500;
+}
+.para2 h4 span{
 
+    margin-right: 10px;
+    color: #2D9187;
+    box-shadow: 1px 1px 5px #ccc;
+    display: inline-block;
+}
+.para2 p{
+  font-size: 14px;
+  font-weight: 300 !important;
+  color: #171717;
+  line-height: 1.7;
+  text-align: left !important;
+  padding: 8px 0 !important;
+}
+.para2 p a{
+    color: #2D9187;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+    font-weight: 600 !important;
+}
+.para2{
+    padding-bottom: 25px;
+}
+
+.para2 p a:hover{
+    color: #705640;
+
+}
+.para2 ul li a{
+    padding-bottom: 8px;
+    font-weight: 400;
+    color: #048;
+}
+
+.para2 ul li a:hover{
+   color: #8C6498;
+}
+#community_section h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #171717;
+    text-align: center;
+    margin: 15px 0;
+}
+#community_section h2 a{
+    background: #8C6498;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 /* 7.-------------------------------------------
                     About Section
 -----------------------------------------------*/
