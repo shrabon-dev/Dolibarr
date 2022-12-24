@@ -71,5 +71,13 @@ h6{
 
  /* TABLET VERSION */
  @media (min-width:576px) and (max-width:767px) {
-         
+    .banner_img .button{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: -200px;
+    }
+    .banner_img .button a{
+       padding: 10px;
+    }
  }

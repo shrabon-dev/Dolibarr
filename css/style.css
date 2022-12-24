@@ -133,7 +133,34 @@ h1{
     color: aquamarine;
 
 }
-
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title h6{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    color: #2D9187;
+    font-weight: 500;
+    text-align: right;
+    width:60%;
+}
+.title h6 i{
+    background-color: #2D9187;
+    padding: 12px;
+    margin-right: 15px;
+    border-radius: 50px;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: 1px 1px 5px #ccc;
+    display: inline-block;
+}
+.title picture{
+    width: 40%;
+    text-align: right;
+}
 /* 2.-------------------------------------------
                     Heder Section
 -----------------------------------------------*/
@@ -151,6 +178,11 @@ header .logo{
 /* 3.-------------------------------------------
                     Navbar Section
 -----------------------------------------------*/
+nav{
+    background: #ffffff;
+    box-shadow: 0 1px 10px  0 #bdbdbd;
+    padding: 0px 0 !important;
+}
 nav ul li a{
     font-weight: 700 !important;
     font-size: 13px !important;
@@ -188,14 +220,14 @@ h6{
 }
 .banner_img{
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
 }
 .banner_img picture{
-    width: 80%;
+    width: 90%;
 }
 .banner_img img{
-    width: 60%;
+    width: 78%;
     display: block;
     margin: 40px auto;
 }
@@ -203,12 +235,12 @@ h6{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-left: -230px;
+    margin-left: -480px;
 }
 .button a{
     display: inline-block;
     background: #8C6498;
-    padding: 18px 25px;
+    padding: 16px 28px;
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
@@ -225,15 +257,164 @@ h6{
     background: #263C5C;
 }
 /* 4.-------------------------------------------
-                    About Section
+                    Text Section
 -----------------------------------------------*/
+#text_section picture{
+    float: right;
+    width: 150px;
+}
+#text_section picture img{
+    width: 100%;
+    display: block;
+}
+#text_section .para h4{
+    text-shadow: 1px 1px 3px #ddd;
+    color: #220050 !important;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0;
+}
 
-
+#text_section .para h4 span{
+    background-color: #2D9187;
+    width: 40px;
+    height: 40px;;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 1px 1px 5px #ccc;
+    display: inline-block;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#text_section .para ul{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+#text_section .para ul li strong{
+    font-weight: 600;
+}
+#text_section .para ul li{
+    list-style: disc;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+#text_section .para ul li a{
+    background: #8C6498;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 /* 5.-------------------------------------------
-                    About Section
+                    Features Section
 -----------------------------------------------*/
+#features_section{
+    padding: 100px 0;
+}
+#features_section .title{
+    padding-bottom: 50px;
+}
+.feature_box{
+    margin: 30px 0;
+}
+.feature_box h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.feature_box .feature {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
-
+.feature_box .feature a{
+    display: inline-block;
+    width: 118px;
+    height: 90px;
+    background: transparent;
+    box-shadow: 0 0 5px 0 #b6b6b6;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+}
+.feature_box .feature a:hover{
+    background: #e4e4e4;
+}
+.feature_box .feature a span{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #171717;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+}
+.feature_box .feature a i{
+    display: block;
+    font-size: 24px;
+    color: #494949;
+    margin-top: 10px;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+}
+.feature_box .feature a:nth-child(2) i{
+    color: #048;
+}
+.feature_box .feature a:nth-child(3) i{
+    color: #705640;
+}
+.feature_box .feature a:nth-child(4) i{
+    color: #8C6498;
+}
+.feature_box .feature a:nth-child(5) i{
+    color: #2D9187;
+}
+.feature_box .feature a:nth-child(6) i{
+    color: #2D9187;
+}
+.feature_box .feature a:hover span{
+   color: #048;
+}
+.feature_box .feature a:hover i{
+   color: #2D9187;
+}
+.download p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8d8d8d;
+    margin-bottom: 5px;
+}
+.download img{
+    width: 150px;
+    display: block;
+}
 /* 6.-------------------------------------------
                     About Section
 -----------------------------------------------*/
