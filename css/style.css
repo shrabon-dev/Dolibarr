@@ -136,6 +136,7 @@ h1{
 .title{
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(201,201,201,1) 47%, rgba(255,255,255,1) 100%);
 }
 .title h6{
     padding-top: 20px;
@@ -326,7 +327,7 @@ h6{
     padding: 100px 0;
 }
 #features_section .title{
-    padding-bottom: 50px;
+    padding: 20px 0;
 }
 .feature_box{
     margin: 30px 0;
@@ -427,6 +428,9 @@ h6{
 #community_section .title h6{
      width: 100%;
      text-align: center;
+}
+#community_section .title{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(201,201,201,1) 47%, rgba(255,255,255,1) 100%);
 }
 #community_section p{
     padding: 20px 0;
