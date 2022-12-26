@@ -1,5 +1,9 @@
+
+*{
+    scroll-behavior: smooth !important;
+}
 .title2{
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(201,201,201,1) 47%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(201,201,201,.8) 47%, rgba(255,255,255,1) 100%);
 }
 .title2 h6{
     padding-top: 20px;
@@ -12,7 +16,10 @@
 }
 .title2 h6 i{
     background-color: #2D9187;
-    padding: 12px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
     margin-right: 15px;
     border-radius: 50px;
     color: #fff;
@@ -20,26 +27,60 @@
     box-shadow: 1px 1px 5px #ccc;
     display: inline-block;
 }
+.Pros_Cust .h3{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #2D9187 !important;
+    font-size: 20px;
+
+}
+strong{
+    font-weight: 500 !important;
+}
 .h3{
     padding-top: 30px;
     padding-bottom: 10px;
     color: #2D9187 !important;
     font-size: 18px;;
 }
+.Pros_Cust p{
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    line-height: 1.7;
+
+}
 .list ul li{
     list-style-type: disc;
     font-size: 16px;
     font-weight: 300;
 }
+.list p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.9;
+}
 .p{
     font-size: 16px;
     font-weight: 300;
+}
+.p2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
 }
 b{
     font-weight: 500;
 }
 .imgBoxshaddow img{
-    box-shadow: 1px 1px 47px 9px rgba(138,138,138,0.76);
--webkit-box-shadow: 1px 1px 47px 9px rgba(138,138,138,0.76);
--moz-box-shadow: 1px 1px 47px 9px rgba(138,138,138,0.76);
+    box-shadow: 1px 1px 20px 9px rgba(116, 116, 116, 0.418);
+-webkit-box-shadow: 1px 1px 20px 9px rgba(116, 116, 116, 0.418);
+-moz-box-shadow: 1px 1px 20px 9px rgba(116, 116, 116, 0.418);
+}
+.video_heading{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0 50px 0;
+    text-align: center;
+    color: #4e2910 !important;
 }
