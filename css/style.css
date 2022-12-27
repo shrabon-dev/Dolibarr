@@ -116,7 +116,12 @@ select:focus {
 button:focus {
     outline: 0;
 }
-
+.pr-50{
+    padding-right: 50px !important;
+}
+.pl-50{
+    padding-left: 50px !important;
+}
 .overflow_x {
     overflow-x: hidden;
 }
@@ -515,15 +520,267 @@ h6{
     -o-border-radius: 5px;
 }
 /* 7.-------------------------------------------
-                    About Section
+                    Price Section
 -----------------------------------------------*/
+#price_section{
+    padding: 80px 0;
+}
+#price_section h2{
+    font-size: 58px;
+    font-weight: 700;
+    color: #001d49;
+    margin-bottom: 25px;
+}
+.CheckStyle label{
+    font-size: 16px !important;
+    font-weight: 700;
+    color: #001d49;
+}
+.price_box{
+    width: 100%;
+    height: 450px;
+    background: #ececec;
+    box-shadow: 0 0 250px 0 #b6b6b6;
+    position: relative;
+    padding: 30px;
 
+}
+.price_box::after{
+    width: 100%;
+    height: 10px;
+    background: #048;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.col-lg-4:nth-child(2) .price_box::after{
+    background: #2d9187;
+}
+.col-lg-4:nth-child(3) .price_box::after{
+    background: #705640;
+}
 
+.price_box h6{
+    font-size: 28px;
+    font-weight: 500;
+    color: #171717;
+    padding-bottom: 8px;
+}
+.price_box h4{
+    font-size: 48px;
+    font-weight: 700;
+    color: #048;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price_box p{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+}
+.price_box h4 sup{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.price_box h4 sub{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3b3b3b;
+}
+.price_box h4 del{
+    font-size: 16px;
+    font-weight: 400;
+    color: #a50000;
+}
+.price_box ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 5px;
+    
+}
+.price_box ul li:nth-child(1){
+    font-weight: 700;
+}
+.btn_style{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 40px;
+    border: 1px solid #048;
+    background: #048;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 80px;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+    text-transform: uppercase;
+}
+.free_btn{
+    background: #ffffff36 !important;
+    margin-top: 10px !important;
+    border-color:#7c9ab836;
+    color: #048;
+}
+.btn_style:hover{
+    background: #001d49;
+}
+.free_btn:hover{
+    background: rgba(0, 68, 136, 0.11) !important;
+}
+.col-lg-4:nth-child(3) .price_box .btn_style{
+    margin-top: 10px;
+}
 /* 8.-------------------------------------------
-                    About Section
+                    Form Section
 -----------------------------------------------*/
+.form_two{
+    display: flex;
+}
+.form_img{
+    width: 50%;
+}
+.form_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.form{
+    width: 50%;
+    padding: 15px;
+}
+.form form label{
+    font-size: 14px;
+    color: #000000;
+    
+}
+.form form p{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: #616161b4;
+}
+.form form label span{
+    color: #a50000;
+    padding-left: 2px;
 
+}
 
+.button button{
+    background: #048;
+    border: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.button a{
+    background: #048;
+    border: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.select_form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 0;
+
+}
+.select_form .select_box{
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    color: #048;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid transparent;
+    font-size: 24px;
+    font-weight: 400;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 200px 0 #adadad;
+    cursor: pointer;
+}
+.select_form .active_form{
+    border-color: #2d9187;
+}
+.select_form  .select_box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    width: 16px;
+    text-align: center;
+    line-height: 16px;
+    height: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #2D9187;
+    color: #ffffff !important;
+    font-size: 10px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+}
+.select_form  .active_form span{
+    opacity: 1;
+}
+.select_form .select_box img{
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+ .form2 .button{
+    text-align: right;
+    opacity: .2;  
+}
+.form2 .active_button {
+    opacity: 1;
+}
 /* 9.-------------------------------------------
                     Footer Section
 -----------------------------------------------*/

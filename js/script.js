@@ -2,30 +2,7 @@ $(function () {
 
     "use strict";
 
-    // =====Pre Loader===== //
-     
-    // var loader = document.getElementById("loader");
-    // window.addEventListener("load", function () {
-
-    //     loader.style.visibility = "hidden";
-
-    // });
-
-    // ======Menufix===== //
-
-    //    var navoff = $(".main_menu").offset().top;
-    //
-    //    $(window).scroll(function () {
-    //        var scrolling = $(this).scrollTop();
-    //
-    //        if (scrolling > navoff) {
-    //            $(".main_menu").addClass("menu_fix");
-    //        } else {
-    //            $(".main_menu").removeClass("menu_fix");
-    //        }
-    //    });
-
-
+    
      // =====Closes responsive menu when a scroll link is clicked===== //
 
      $('.nav-link').on('click', function () {
@@ -119,6 +96,51 @@ $(function () {
     // =====Aos Js===== n//
 
     AOS.init();
+
+
+
+});
+
+
+$(document).ready(function(){
+
+    let selectForm = false;
+    let personal_use = document.getElementById('personal_use');
+    let business_use = document.getElementById('business_use');
+    let continue_button = document.getElementById('continue_button');
+    let anchor_button = document.getElementById("set_link");
+   
+    $(personal_use).click(function(){
+        $(this).toggleClass('active_form')
+        $('#business_use').removeClass('active_form')
+        $(continue_button).toggleClass('active_button')
+        if(personal_use.classList.contains('active_form')){
+            selectForm =true
+            $(continue_button).addClass('active_button')
+            anchor_button.href = './form_one.html';
+        }else{
+            selectForm = false
+            $(continue_button).removeClass('active_button')
+        }
+
+    })
+    $(business_use).click(function(){
+        $(this).toggleClass('active_form')
+        $('#personal_use').removeClass('active_form')
+   
+
+        if(business_use.classList.contains('active_form')){
+            selectForm =true
+            $(continue_button).addClass('active_button')
+            anchor_button.href = './form_two.html';
+        }else{
+            selectForm = false
+            $(continue_button).removeClass('active_button')
+
+        }
+
+    })
+
 
 
 
