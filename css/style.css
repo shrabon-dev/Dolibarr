@@ -1,30 +1,14 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Responsive WEBSITE
+    Template Name: Dollibar WEBSITE
     Template URI:
     Description: This is ______
     Author: RIAZ PATOWARY & MD. SHRABON HOSSAIN
 
 
 -----------------------------------------------------------------------------------
-    
-    CSS INDEX
-    ===================
-	
-    1. Template default css
-    2. Header Section
-    3. Slider Section
-    4. Service Section 
-    5. About Section
-    6. Career Section
-    7. Testimonials Section
-    8. Subscribe Section 
-    9. Pricing Section
-    10. Counter Section
-    11. Footer Section
-    12. Scrollup
-    13. Blog details
-    
+
+
     
 -----------------------------------------------------------------------------------*/
 
@@ -782,6 +766,75 @@ h6{
     opacity: 1;
 }
 /* 9.-------------------------------------------
+                    Contuct  Section
+-----------------------------------------------*/
+#contuct_us_section{
+    padding: 100px 0;
+}
+#contuct_us_section .title{
+    margin: 30px 0; 
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 0;
+    background: transparent;
+}
+#contuct_us_section .title h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 44x;
+    font-weight: 700;
+    color: #525252; 
+}
+#contuct_us_section .title p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #747474;
+}
+.contuct{
+    box-shadow: 0 0 250px 0 #adadad;
+    border-radius: 35px !important;
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    -ms-border-radius: 35px !important;
+    -o-border-radius: 35px !important;
+    padding: 10px 50px;
+    padding-bottom: 30px;
+}
+.contuct form{
+
+}
+.contuct form label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 23, 44, 0.801);
+}
+.contuct form textarea{
+    resize: none;
+}
+.contuct form button{
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 30px;
+  background: rgb(2, 102, 202);
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: .4s all ease-in-out;
+  -webkit-transition: .4s all ease-in-out;
+  -moz-transition: .4s all ease-in-out;
+  -ms-transition: .4s all ease-in-out;
+  -o-transition: .4s all ease-in-out;
+}
+.contuct form button:hover{
+  background: rgb(0, 60, 121);
+}
+/* 10.-------------------------------------------
                     Footer Section
 -----------------------------------------------*/
 footer{
