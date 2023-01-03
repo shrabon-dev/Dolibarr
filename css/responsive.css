@@ -84,4 +84,13 @@ h6{
     .banner_img .button a{
        padding: 10px;
     }
+    #card_section .card_box {
+        font-size: 16px;
+    }
+ }
+ /* TABLET VERSION 2*/
+ @media (min-width:768px) and (max-width:991px) {
+    #card_section .card_box {
+        font-size: 16px;
+    }
  }

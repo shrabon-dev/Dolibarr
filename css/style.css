@@ -835,12 +835,68 @@ h6{
   background: rgb(0, 60, 121);
 }
 /* 10.-------------------------------------------
+                    Card Section
+-----------------------------------------------*/
+#card_section .card_title{
+    padding: 20px 0;
+}
+#card_section .card_title h6{
+   font-size: 20px;
+   font-weight: 400;
+   color: #303030 !important;
+   line-height: 1.7;
+}
+#card_section .card_title p{
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+   color: #048 !important;
+   line-height: 1.7;
+   padding: 50px 0;
+}
+#card_section .card_box {
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+   color: #048 !important;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   border: 1px solid #ccc;
+   padding: 10px;
+   transition: .4s all ease-in-out;
+   -webkit-transition: .4s all ease-in-out;
+   -moz-transition: .4s all ease-in-out;
+   -ms-transition: .4s all ease-in-out;
+   -o-transition: .4s all ease-in-out;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   margin-bottom: 25px;
+}
+#card_section .card_box:hover{
+    box-shadow: 0 0 250px 0 #b9b9b9be;
+    border-color: transparent;
+}
+#card_section .card_box .card_img{
+    display: block;
+    width: 100%;
+}
+#card_section .card_box .card_img img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+/* 10.-------------------------------------------
                     Footer Section
 -----------------------------------------------*/
 footer{
     background: #CCCCCC;
     text-align: center;
     padding: 20px  0;
+    margin-top: 50px;
 }
 footer p{
     color: #8d8d8d;
