@@ -837,16 +837,16 @@ h6{
 /* 10.-------------------------------------------
                     Card Section
 -----------------------------------------------*/
-#card_section .card_title{
-    padding: 20px 0;
+ .card_title{
+    padding: 50px 0;
 }
-#card_section .card_title h6{
+ .card_title h6{
    font-size: 20px;
    font-weight: 400;
    color: #303030 !important;
    line-height: 1.7;
 }
-#card_section .card_title p{
+ .card_title p{
    font-size: 16px;
    font-weight: 400;
    text-align: center;
@@ -888,6 +888,19 @@ h6{
     display: block;
     width: 50%;
     margin: 0 auto;
+}
+#modulas_section table tr:nth-child(even){
+    background: #ffffff !important;
+}
+#modulas_section table tr td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+#modulas_section table tr td:nth-child(1){
+    font-weight: 700;
+    padding-left: 20px !important;
 }
 /* 10.-------------------------------------------
                     Footer Section
