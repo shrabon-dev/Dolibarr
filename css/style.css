@@ -902,6 +902,15 @@ h6{
     font-weight: 700;
     padding-left: 20px !important;
 }
+#modulas_section table tr:nth-child(odd){
+    background: #d8e9f0!important;
+}
+.bg-green{
+    background: green !important;
+}
+.fw-400{
+    font-weight: 400 !important;
+}
 /* 10.-------------------------------------------
                     Footer Section
 -----------------------------------------------*/
