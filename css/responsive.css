@@ -70,7 +70,9 @@ h6{
     width: 80%;
     height: 200px;
 }
-
+.form_img{
+    display: none;
+}
  }
 
  /* TABLET VERSION */

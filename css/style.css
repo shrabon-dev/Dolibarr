@@ -917,6 +917,127 @@ h6{
   margin: 0 auto;
 }
 /* 10.-------------------------------------------
+                    LEGEL Section
+-----------------------------------------------*/
+#legel_section h2{
+  font-size: 32px;
+  font-weight: 500;
+  color: #048;
+  padding-top: 50px;
+
+}
+#legel_section .list{
+    padding-left: 28px;
+    
+}
+#legel_section p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  padding-top: 15px;
+
+}
+#legel_section .heading_legel{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+
+}
+#legel_section  code{
+    color: #2D9187;
+}
+/* 10.-------------------------------------------
+                    SECURITY Section
+-----------------------------------------------*/
+#security_section h3{
+  font-size: 32px;
+  font-weight: 500;
+  color: #048;
+  padding-top: 50px;
+  text-align: center;
+
+}
+#security_section h2{
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+  padding: 20px 0;
+
+}
+#security_section .list{
+    padding-left: 28px;
+    
+}
+#security_section .list ul li{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  list-style-type: disc;
+  padding-bottom: 5px;
+  line-height: 1.7;
+
+}
+#security_section .list ul li span{
+  color: rgb(0, 90, 51);
+  display: block;
+  margin: 15px 0;
+
+}
+#security_section .list ul li ul {
+    padding-left: 35px;
+}
+#security_section .list ul li ul li{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    line-height: 1.7;
+  list-style-type:circle;
+
+}
+/* 10.-------------------------------------------
+                    PRIVACY Section
+-----------------------------------------------*/
+#privacy_section h2{
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding-bottom: 50px;
+
+}
+#privacy_section h2 span{
+    display: block;
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  padding: 15px 0;
+
+}
+#privacy_section ul{
+   padding-bottom: 30px;
+    padding-left: 28px;
+    
+}
+#privacy_section ul li{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(4, 49, 94);
+  list-style-type: disc;
+
+}
+#privacy_section p{
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  padding-bottom: 25px;
+  line-height: 1.7;
+}
+#privacy_section p strong{
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+/* 10.-------------------------------------------
                     Footer Section
 -----------------------------------------------*/
 footer{
@@ -953,7 +1074,6 @@ footer .icon{
     color: rgb(0, 0, 0);
     font-size: 28px;
     margin: 0 5px;
-
 }
 footer p a:hover{
     color: #048;

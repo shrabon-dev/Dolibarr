@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolibar</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- ============= GOOGLE FONTS ROBOTO  ============= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- -------------------
+        HEADER PART START
+    ------------------------ -->
+    <header>
+      <div class="logo">
+        <a href="#"><picture><img src="./images/dolibarr_logo_white.svg" alt="Dolibarr logo "></picture></a>
+      </div>
+    </header>
+    <!-- -------------------
+        HEADER PART START
+    ------------------------ -->
+    <!-- -------------------
+        NAVBAR PART START
+    ------------------------ -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <button class="navbar-toggler menu_btn me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house-chimney"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features_section">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Online Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="addons.html">Addons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./price.html">Prices</a>
+            </li>
+       
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <!-- -------------------
+        NAVBAR PART END
+    ------------------------ -->
+
+    <!-- -------------------
+        SECURITY SECTION START
+    ------------------------ -->
+
+    <section id="security_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+             <h3>— Thrive Bereau ERP CRM Cloud (the platform) — </h3>
+             <h2>Backups / Disaster Recovery</h2>
+             <div class="list">
+              <ul>
+                <li>We keep 14 full backups of each Thrive Bereau ERP CRM database for up to 3 months: 1/day for 7 days, 1/week for 4 weeks, 1/month for 3 months</li>
+                <li>Backups are replicated in at least 3 different data centers, on at least 2 different continents.</li>
+                <li>The actual locations of our data centers are specified in our <a href="./privacy.html">Privacy Policy</a>.</li>
+                <li>You can also download manual backups of your live data at any time using the control panel.</li>
+                <li>You can contact our Helpdesk to restore any of those backups on your live database (or on the side).</li>
+                <li><strong>Hardware failover: </strong> for services hosted on bare metal, where hardware failure is possible, we implement local hot standby replication, with monitoring and a manual failover procedure that takes less than 5 minutes.</li>
+                <li><strong>Disaster recovery: </strong>in case of complete disaster, with a data center entirely down for an extended period, preventing the failover to our local hot-standby (never happened so far, this is the worst-case plan), we have the following objectives:
+                <ul>
+                  <li>RPO (Recovery Point Objective) = 24h. This means you can lose max 24h of work if the data cannot be recovered and we need to restore your latest daily backup.</li>
+                
+                  <li>RTO (Recovery Time Objective) = 24h for paid subscriptions, 48h for free trials, education offer, freemium users, etc. This is the time to restore the service in a different data center if a disaster occurs and a datacenter is completely down.</li>
+                  <li>How is this accomplished: we actively monitor our daily backups, and they are replicated in multiples locations on different continents. We have automated provisioning to deploy our services in a new hosting location. Restoring the data based on our backups of the previous day can then be done in a few hours (for the largest clusters), with priority on the paid subscriptions.
+                    We routinely use both the daily backups and provisioning scripts for daily operations, so both parts of the disaster recovery procedure are tested all the time.
+                    </li>
+                </ul>
+                </li>
+
+              </ul>
+             </div>
+          </div>
+          <div class="col-md-12">
+            <h2>Database Security</h2>
+            <div class="list">
+              <ul>
+                <li>Customer data is stored in a dedicated database - no sharing of data between clients.</li>
+                <li>Data access control rules implement complete isolation between customer databases running on the same cluster, no access is possible from one database to another.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <h2>Password Security</h2>
+            <div class="list">
+              <ul>
+                <li>Customer passwords are protected with industry-standard PBKDF2+SHA512 encryption (salted + stretched for thousands of rounds).</li>
+                <li>Thrive Bereau ERP CRM staff does not have access to your password, and cannot retrieve it for you, the only option if you lose it is to reset it.</li>
+                <li>Login credentials are always transmitted securely over HTTPS.</li>
+                <li>As of Thrive Bereau ERP CRM 12.0, customer database administrators even have the option to configure the rate limiting and cooldown duration for repeated login attempts.</li>
+                <li>Password policies: as of Thrive Bereau ERP CRM 12 database administrators have a built-in setting for enforcing a minimum user password length. For older versions it is possible to achieve the same effect through customization. Other password policies like required character classes are not supported by default because they have been proven counter-productive - see e.g. [Shay et al. 2016]).</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <h2>Staff Access</h2>
+            <div class="list">
+              <ul>
+                <li>Thrive Bereau ERP CRM helpdesk staff may sign into your account to access settings related to your support issue. For this they use their own special staff credentials, not your password (which they have no way to know).</li>
+                <li>This special staff access improves efficiency and security: they can immediately reproduce the problem you are seeing, you never need to share your password, and we can audit and control staff actions separately!</li>
+                <li>Our Helpdesk staff strives to respect your privacy as much as possible, and only access files and settings needed to diagnose and resolve your issue.
+                </li>
+              </ul>
+            </div>
+          </div>
+   
+          <div class="col-md-12">
+            <h2>System Security</h2>
+            <div class="list">
+              <ul>
+                <li>All Thrive Bereau ERP CRM Cloud servers are running hardened Linux distributions with up-to-date security patches.</li>
+                <li>Installations are ad-hoc and minimal to limit the number of services that could contain vulnerabilities (no PHP/MySQL stack for example).</li>
+                <li>Only a few trusted Thrive Bereau ERP CRM engineers have clearance to remotely manage the servers - and access is only possible using an encrypted personal SSH keypair, from a computer with full-disk encryption.
+                </li>
+              </ul>
+            </div>
+            <h2>Physical Security</h2>
+            <p>Thrive Bereau ERP CRM Cloud servers are hosted in trusted data centers in various regions of the world (e.g. OVH, Google Cloud), and they must all exceed our physical security criterions:</p>
+            <div class="list">
+              <ul>
+                <li>Restricted perimeter, physically accessed by authorized data center employees only.</li>
+                <li>Physical access control with security badges or biometrical security.</li>
+                <li>Security cameras monitoring the data center locations 24/7.</li>
+                <li>Security personnel on site 24/7. </li>
+              </ul>
+            </div>
+
+            <h2>Credit Card Safety</h2>
+            <div class="list">
+              <ul>
+                <li>We never store credit card information on our own systems.</li>
+                <li>Your credit card information is always transmitted securely directly between you and our PCI-Compliant payment acquirers (see the list on our <a href="#">Privacy Policy</a> page).</li>
+              </ul>
+            </div>
+
+            <h2>Communications</h2>
+            <div class="list">
+              <ul>
+                <li> All data communications to client instances are protected with state-of-the-art 256-bit SSL encryption (HTTPS).</li>
+                <li> All internal data communications between our servers are also protected with state-of-the-art encryption (SSH).</li>
+                <li> Our servers are kept under a strict security watch, and always patched against the latest SSL vulnerabilities, enjoying Grade A SSL ratings at all times.</li>
+                <li> All our SSL certificates use robust 2048-bit modulus with full SHA-2 certificates chains.</li>
+              </ul>
+            </div>
+            <h2>Network defense</h2>
+            <div class="list">
+              <ul>
+                <li>All data center providers used by Thrive Bereau ERP CRM Cloud have very large network capacities, and have designed their infrastructure to withstand the largest Distributed Denial of Service (DDoS) attacks. Their automatic and manual mitigation systems can detect and divert attack traffic at the edge of their multi-continental networks, before it gets the chance to disrupt service availability.</li>
+                <li>Firewalls and intrusion prevention systems on Thrive Bereau ERP CRM Cloud servers help detect and block threats such as brute-force password attacks.</li>
+                <li>As of Thrive Bereau ERP CRM 12.0, customer database administrators even have the option to configure the rate limiting and cooldown duration for repeated login attempts.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <h3> — Thrive Bereau ERP CRM (the software) — </h3>
+            <h2>Software Security</h2>
+            <p>Thrive Bereau ERP CRM is open source, so the whole codebase is continuously under examination by Thrive Bereau ERP CRM users and contributors worldwide. Community bug reports are therefore one important source of feedback regarding security. We encourage developers to audit the code and report security issues.</p>
+            <p>The Thrive Bereau ERP CRM R&D processes have code review steps that include security aspects, for new and contributed pieces of code.</p>
+            <h2>Secure by design</h2>
+            <p>Thrive Bereau ERP CRM is designed in a way that prevents introducing most common security vulnerabilities:</p>
+            <div class="list">
+              <ul>
+                <li>SQL injections are prevented by the use of a higher-level API that does not require manual SQL queries.</li>
+                <li>XSS attacks are prevented by the use of a high-level templating system that automatically escapes injected data.</li>
+                <li>The framework prevents RPC access to private methods, making it harder to introduce exploitable vulnerabilities.</li>
+              </ul>
+            </div>
+            <p>See also the OWASP Top Vulnerabilities section to see how Thrive Bereau ERP CRM is designed from the ground up to prevent such vulnerabilities from appearing.            </p>
+          <h2>Independent Security Audits</h2>
+          <p>Thrive Bereau ERP CRM is regularly audited by independent companies that are hired by our customers and prospects to perform audits and penetration tests. The Thrive Bereau ERP CRM Security Team receives the results and takes appropriate corrective measures whenever it is necessary.</p>
+          <p>We can't however disclose any of those results, because they are confidential and belong to the commissioners. Please don't ask ;-)</p>
+          <p>Thrive Bereau ERP CRM also has a very active community of independent security researchers, who continuously monitor the source code and work with us to improve and harden the security of Thrive Bereau ERP CRM. Our Security Program is described on our Responsible Disclosure page.</p>
+
+
+          <h2>OWASP Top Vulnerabilities</h2>
+          <div class="list">
+            <ul>
+              <li><strong>Injection Flaws:</strong> Injection flaws, particularly SQL injection, are common in web applications. Injection occurs when user-supplied data is sent to an interpreter as part of a command or query. The attacker's hostile data tricks the interpreter into executing unintended commands or changing data.
+              <span>Thrive Bereau ERP CRM relies on an object-relational-mapping (ORM) framework that abstracts query building and prevents SQL injections by default. Developers do not normally craft SQL queries manually, they are generated by the ORM, and parameters are always properly escaped.</span>
+              </li>
+
+              <li><strong>Cross Site Scripting (XSS): </strong> XSS flaws occur whenever an application takes user supplied data and sends it to a web browser without first validating or encoding that content. XSS allows attackers to execute scripts in the victim's browser which can hijack user sessions, deface web sites, possibly introduce worms, etc.
+                <span>The Thrive Bereau ERP CRM framework escapes all expressions rendered into views and pages by default, preventing XSS. Developers have to specially mark expressions as "safe" for raw inclusion into rendered pages.</span></li>
+              
+              <li>
+                  <strong>Cross Site Request Forgery (CSRF): </strong>  A CSRF attack forces a logged-on victim’s browser to send a forged HTTP request, including the victim’s session cookie and any other automatically included authentication information, to a vulnerable web application. This allows the attacker to force the victim’s browser to generate requests the vulnerable application thinks are legitimate requests from the victim.
+                  <span>The Thrive Bereau ERP CRM website engine includes a built-in CSRF protection mechanism. It prevents any HTTP controller to receive a POST request without the corresponding security token. This is the recommended technique for CSRF prevention. This security token is only known and present when the user genuinely accessed the relevant website form, and an attacker cannot forge a request without it.</span>   
+              </li>
+
+              <li><strong>Malicious File Execution:</strong> Code vulnerable to remote file inclusion (RFI) allows attackers to include hostile code and data, resulting in devastating attacks, such as total server compromise.
+              <span>Thrive Bereau ERP CRM does not expose functions to perform remote file inclusion. However it allows privileged users to customize features by adding custom expressions that will be evaluated by the system. These expressions are always evaluated by a sandboxed and sanitized environment that only allows access to permitted functions.</span></li>
+              <li><strong>Insecure Direct Object Reference: </strong> A direct object reference occurs when a developer exposes a reference to an internal implementation object, such as a file, directory, database record, or key, as a URL or form parameter. Attackers can manipulate those references to access other objects without authorization.
+              <span>Thrive Bereau ERP CRM access control is not implemented at the user interface level, so there is no risk in exposing references to internal objects in URLs. Attackers cannot circumvent the access control layer by manipulating those references, because every request still has to go through the data access validation layer.</span></li>
+              <li><strong>Insecure Cryptographic Storage:</strong> Web applications rarely use cryptographic functions properly to protect data and credentials. Attackers use weakly protected data to conduct identity theft and other crimes, such as credit card fraud.
+              <span>Thrive Bereau ERP CRM uses industry-standard secure hashing for user passwords (by default PKFDB2 + SHA-512, with key stretching) to protect stored passwords. It is also possible to use external authentication systems such as OAuth 2.0 or LDAP, in order to avoid storing user passwords locally at all.</span></li>
+              <li><strong>Insecure Communications:</strong> Applications frequently fail to encrypt network traffic when it is necessary to protect sensitive communications.
+              <span>Thrive Bereau ERP CRM Cloud runs on HTTPS by default. For on-premise installations, it is recommended to run Thrive Bereau ERP CRM behind a web server implementing the encryption and proxying request to Thrive Bereau ERP CRM, for example Apache, Lighttpd or nginx. The Thrive Bereau ERP CRM deployment guide includes a Security checklist for safer public deployments.</span></li>
+              <li><strong>Failure to Restrict URL Access: </strong> Frequently an application only protects sensitive functionality by preventing the display of links or URLs to unauthorized users. Attackers can use this weakness to access and perform unauthorized operations by accessing those URLs directly.
+              <span>Thrive Bereau ERP CRM access control is not implemented at the user interface level, and the security does not rely on hiding special URLs. Attackers cannot circumvent the access control layer by reusing or manipulating any URL, because every request still has to go through the data access validation layer. In rare cases where a URL provides unauthenticated access to sensitive data, such as special URLs customers use to confirm an order, these URLs are digitally signed with unique tokens and only sent via email to the intended recipient.</span></li>
+            </ul>
+
+          </div>
+        <h2>Reporting Security Vulnerabilities</h2>
+        <p>If you need to report a security vulnerability, please head over to our responsible disclosure page. These reports are treated with high priority, the problem is immediately assessed and solved by the Thrive Bereau ERP CRM security team, in collaboration with the reporter, and then disclosed in a responsible manner to Thrive Bereau ERP CRM customers and users.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- -------------------
+          SECURITY SECTION END
+    ------------------------ --> 
+
+
+    <!-- -------------------
+          FOOTER SECTION START
+    ------------------------ -->
+    <footer>
+       <div class="container">
+           <div class="row">
+              <div class="col-lg-12">
+                  <p>Dolibarr ERP CRM © 2003-2022 - Open Source Software for business (Windows - MAC - Linux - Cloud)</p>
+                   <div class="icon">
+                      <span>
+                        <form action="#" method="get">
+                          <select class="form-select" name="#" id="">
+                            <option value="English">English</option>
+                            <option value="English">Bangla</option>
+                            <option value="English">Urdhu</option>
+                          </select>
+                        </form>
+                      </span>
+                       <span>
+                         <ul>
+                           <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                           <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                           <li><a href="#"><i class="fa-brands fa-reddit-alien"></i></a></li>
+                           <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+                           <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                         </ul>
+                       </span>
+                   </div>
+                   <p><a href="#">Legal and Privacy</a></p>
+                </div>
+           </div>
+       </div>
+    </footer>
+    <!-- -------------------
+          FOOTER SECTION END
+    ------------------------ -->
+
+          <!-- Script links -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
